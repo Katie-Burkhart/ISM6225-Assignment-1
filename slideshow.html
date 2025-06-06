@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Top-to-Bottom Slideshow</title>
+    <!-- link to css file -->
+     <link rel = "stylesheet" href="css/styles3.css">
+     <style>
+
+     </style>
+
+</head>
+<body>
+
+    <!-- Top Navigation Menu -->
+    <header>
+        <div class="logo">
+            <h2>Heels and Sneaks</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shoppingcart.html">Products</a></li>
+                <li><a href="analytics.html">Product Analytics</a></li>
+                <li><a href="inventory.html">Manage Inventory</a></li>
+                <li><a href="slideshow.html" class="active">Gallery</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slideshow-container">
+        <img src="img/artic.png" alt="Artica" class="slide active">
+        <img src="img/sharky2.png" alt="Waves" class="slide">
+        <img src="img/Persephone.png" alt="Persephone" class="slide">
+        <img src="img/steampunk.png" alt="Steampunk" class="slide">
+        <img src="img/sharky1.png" alt="Shark" class="slide">
+        <div class="info">
+            <h1 class="logo">Heels and Sneaks</h1>
+            <p>NEW SUMMER COLLECTION</p>
+            <h3>FIRST LOOK</h3>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button onclick="showSlide(0)">1</button>
+        <button onclick="showSlide(1)">2</button>
+        <button onclick="showSlide(2)">3</button>
+        <button onclick="showSlide(3)">4</button>
+        <button onclick="showSlide(4)">5</button>
+    </div>
+    <!-- link to javascript-->
+     <script src="js/gallery.js"></script>
+</body>
+</html>
+
+<!-- timestamp 1:29 stuck on pithy sales promotion-->

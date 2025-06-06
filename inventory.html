@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manage Products - Heels and Sneaks</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   <!-- Navigation Menu from index.html -->
+  <header>
+    <div class="logo">
+      <h2>Heels and Sneaks</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shoppingcart.html">Products</a></li>
+        <li><a href="analytics.html">Product Analytics</a></li>
+        <li><a href="inventory.html" class="active">Manage Inventory</a></li>
+        <li><a href="slideshow.html">Gallery</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h3>Add / Edit Product</h3>
+      <form id="productForm">
+        <input type="hidden" id="productId" />
+        <input type="text" id="productName" placeholder="Product Name" required />
+        <input type="number" id="productPrice" placeholder="Price" required />
+        <input type="text" id="productImage" placeholder="Image File (e.g., 1.png)" required />
+        <button type="submit">Save Product</button>
+      </form>
+    </section>
+
+
+    <section>
+      <h3>Product List</h3>
+      <div id="productList"></div>
+    </section>
+  </main>
+
+  <script src="js/crud.js"></script>
+</body>
+</html>
+
